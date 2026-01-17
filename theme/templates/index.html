@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}{{ SITENAME }}{% endblock %}
+{% block content %}
+<p class="no-top"><a href="{{ SITEURL  }}/about">Marcos Augusto</a>, a software engineer from Brasília, now based in Lisbon.</p>
+<div class="article-list nu">
+    {% for article in articles | selectattr('category', '==', 'blog')%}
+    <div><a href="{{ article.url }}">{{ article.title }}</a></div>
+    <time>{{  article.date | strftime('%d-%m-%Y') }}</time>
+    {% else %}
+    No posts yet!
+    {% endfor %}
+</div>
+{% endblock %}
