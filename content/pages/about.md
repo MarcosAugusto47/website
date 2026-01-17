@@ -6,7 +6,7 @@ description: Software engineer from Brasília, now based in Lisbon.
 <img src="{static}/images/logo.png" alt="Marcos Augusto" style="max-width: 500px; width: 100%; height: auto;">
 </div>
 
-Hi there. I'm Marcos Augusto.
+Hi there. I'm Marcos Augusto Barbosa.
 
 I'm a software engineer, originally from Brasília, Brazil, now based in Lisbon, Portugal. My work lies at the intersection of software development, data engineering, and building products that solve real problems.
 
