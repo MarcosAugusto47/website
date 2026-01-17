@@ -3,7 +3,7 @@ slug: about
 description: Software engineer from Brasília, now based in Lisbon.
 
 <div style="text-align: center; margin-bottom: 20px;">
-<img src="/images/logo.png" alt="Marcos Augusto" style="max-width: 500px; width: 100%; height: auto;">
+<img src="{static}/images/logo.png" alt="Marcos Augusto" style="max-width: 500px; width: 100%; height: auto;">
 </div>
 
 Hi there. I'm Marcos.

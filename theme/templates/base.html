@@ -10,15 +10,15 @@
 
     <body>
         <header class="container nu ">
-            <h1 style=""><a class="sitename {% if article %}dimmed greyed-out{% endif %}" href="/">{{SITENAME }}</a></h1>
+            <h1 style=""><a class="sitename {% if article %}dimmed greyed-out{% endif %}" href="{{ SITEURL }}/">{{SITENAME }}</a></h1>
             <div>
-                <a href="/" {% if output_file == 'index.html' %}class="highlighted underlined" {% endif %}>Blog</a> |
-                <a href="/about" {% if output_file == 'about.html' %}class="highlighted underlined"{% endif %}>About</a> |
-                <a href="/consulting" {% if output_file == 'consulting.html' %}class="highlighted underlined"{% endif %}>Consulting</a> |
-                <a target="_blank" href="/cv.pdf">Resume</a> |
-                <a href="/talks" {% if output_file == 'talks.html' %}class="highlighted underlined"{% endif %}>Talks</a> |
-                <a href="/photos" {% if output_file == 'photos.html' %}class="highlighted underlined"{% endif %}>Photos</a> |
-                <a href="/contact">Contact</a>
+                <a href="{{ SITEURL }}/" {% if output_file == 'index.html' %}class="highlighted underlined" {% endif %}>Blog</a> |
+                <a href="{{ SITEURL }}/about" {% if output_file == 'about.html' %}class="highlighted underlined"{% endif %}>About</a> |
+                <a href="{{ SITEURL }}/consulting" {% if output_file == 'consulting.html' %}class="highlighted underlined"{% endif %}>Consulting</a> |
+                <a target="_blank" href="{{ SITEURL }}/cv.pdf">Resume</a> |
+                <a href="{{ SITEURL }}/talks" {% if output_file == 'talks.html' %}class="highlighted underlined"{% endif %}>Talks</a> |
+                <a href="{{ SITEURL }}/photos" {% if output_file == 'photos.html' %}class="highlighted underlined"{% endif %}>Photos</a> |
+                <a href="{{ SITEURL }}/contact">Contact</a>
             </div>
         </header>
         <div class="container vertical-spacing no-top main-content">
