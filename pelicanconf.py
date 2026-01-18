@@ -40,6 +40,9 @@ AUTHORS_SAVE_AS = None
 # pagination
 DEFAULT_PAGINATION = False
 
+# Direct templates
+DIRECT_TEMPLATES = ["index", "blog", "photos"]
+
 # Theme
 THEME = "theme"
 
