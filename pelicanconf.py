@@ -56,6 +56,17 @@ EXTRA_PATH_METADATA = {
     "extra/robots.txt": {"path": "robots.txt"},
 }
 
+FAVICONS_LIST = [
+    "apple-touch-icon.png",
+    "favicon-16x16.png",
+    "favicon-32x32.png",
+    "favicon.ico",
+    "site.webmanifest",
+]
+
+for favicon in FAVICONS_LIST:
+    EXTRA_PATH_METADATA[f"extra/favicons/{favicon}"] = {"path": f"favicons/{favicon}"}
+
 # MARKDOWN
 MARKDOWN = {
     "extensions": [
