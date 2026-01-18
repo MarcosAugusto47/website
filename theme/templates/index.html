@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block title %}{{ SITENAME }}{% endblock %}
 {% block content %}
-<p class="no-top"><a href="{{ SITEURL  }}/about">Marcos Augusto</a>, a software engineer from Brasília, now based in Lisbon.</p>
+<p class="no-top"><a href="{{ SITEURL  }}/about">Marcos Augusto</a>, a machine learning engineer from Brasília, now based in Lisbon.</p>
 <div class="article-list nu">
     {% for article in articles | selectattr('category', '==', 'blog')%}
     <div><a href="{{ article.url }}">{{ article.title }}</a></div>
