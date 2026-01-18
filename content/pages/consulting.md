@@ -1,6 +1,6 @@
 title: Consulting
 slug: consulting
-description: Software consulting services.
+description: AI / Data Engineering consulting services.
 
 ## Consulting Services
 

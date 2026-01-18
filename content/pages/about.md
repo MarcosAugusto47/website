@@ -1,6 +1,6 @@
 title: About me
 slug: about
-description: Software engineer from Brasília, now based in Lisbon.
+description: Machine learning engineer from Brasília, now based in Lisbon.
 
 <div style="text-align: center; margin-bottom: 20px;">
 <img src="{static}/images/logo.png" alt="Marcos Augusto" style="max-width: 500px; width: 100%; height: auto;">
@@ -8,7 +8,9 @@ description: Software engineer from Brasília, now based in Lisbon.
 
 Hi there. I'm Marcos Augusto Barbosa.
 
-I'm a software engineer, originally from Brasília, Brazil, now based in Lisbon, Portugal. My work lies at the intersection of software development, data engineering, and building products that solve real problems.
+I'm a machine learning engineer, originally from Brasília, Brazil, now based in Lisbon, Portugal. My work lies at the intersection of software development, data engineering, and building products that solve real problems.
+
+I have graduated in Statistics at Universidade de Brasília and now I have been mainly working developing agentic systems.
 
 ## Background
 
@@ -18,10 +20,10 @@ I enjoy working on challenging technical problems and building things from the g
 
 Outside of work, I'm passionate about:
 
-- Open source software
-- Learning new programming languages
-- Photography
+- Criptography
+- Hiking
 - Exploring new places
+- Just having long conversations with close friends
 
 ## Get in touch
 

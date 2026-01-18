@@ -2,7 +2,7 @@ AUTHOR = "Marcos A. Barbosa"
 SITENAME = "Marcos A. Barbosa"
 SITEURL = ""
 SITE_DESCRIPTION = (
-    "The personal website of Marcos A. Barbosa, a software engineer "
+    "The personal website of Marcos A. Barbosa, a machine learning engineer "
     "from Brasília, now based in Lisbon."
 )
 SITELOGO = "images/logo.png"
